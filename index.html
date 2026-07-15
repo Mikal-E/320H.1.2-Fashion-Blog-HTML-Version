@@ -56,7 +56,7 @@
 <!-- Build the HTML - 7. Article title then date follows, to match instructions of "Use this W3C WAI Guideline example to help you structure your blog post content. Follow the pattern! -->
                                                             <!-- ^^^^^^^^^^^^^^^^^^^^^^^^ -->
 
-                    <h2>On the Street in Brooklyn</h2>
+                    <h2 class="article-title">On the Street in Brooklyn</h2>
 
                     <time datetime="07-15-2026">July 15, 2026</time>
 
@@ -78,8 +78,8 @@
 
                         <ul>
 
-                            <li>Sample Title 1</li>
-                            <li>Sample Title 2</li>
+                            <li><a href="#">Sample Title 1</a></li>
+                            <li><a href="#">Sample Title 1</a></li>
 
                         </ul>
 
@@ -87,11 +87,15 @@
 
                 </article>
 
-                <hr>
+                <!-- <hr> <<< Tried a horizontal rule with a traditional <hr> tag and had issues styling. Found a solution online -->
+
+                <div class="h-divider">
+                    <div class="shadow"></div>
+                </div>
 
                 <article>
 
-                    <h2>Vintage in Vogue</h2>
+                    <h2 class="article-title">Vintage in Vogue</h2>
 
                     <time datetime="July 6 2026">July 6, 2026</time>
 
@@ -112,8 +116,8 @@
 
                         <ul>
 
-                            <li>Sample Title 1</li>
-                            <li>Sample Title 2</li>
+                            <li><a href="#">Sample Title 1</a></li>
+                            <li><a href="#">Sample Title 1</a></li>
 
                         </ul>
 
@@ -121,25 +125,32 @@
 
                 </article>
 
+                <!-- <hr> <<< Tried a horizontal rule with a traditional <hr> tag and had issues styling. Found a solution online -->
+
+                <div class="h-divider">
+                    <div class="shadow"></div>
+                </div>
+
             </section>
             
         </main>
 
 <!-- Build the HTML - 9. Inside the page footer, use the same technique you used earlier to create a semantic and accessible navigation, using a wrapping <nav> tag, unordered list, and the aria attributes. -->
+
         <footer>
 
             <nav aria-label="Main Navigation" role="navigation">
 
                 <ul>
 
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Women's</a></li>
+                    <li><a href="#">Men's</a></li>
+                    <li><a href="#">On the Street</a></li>
+                    <li><a href="#">The Catwalk</a></li>
+                    <li><a href="#">AdWatch</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Tips</a></li>
 
                 </ul>
 
