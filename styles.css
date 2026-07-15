@@ -124,6 +124,7 @@ button {
     padding: 10px 25px;
     background-color: tomato;
     border-radius: 25px;
+    box-shadow: 0 0 2px #cccccc;
 
 }
 
