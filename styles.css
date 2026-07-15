@@ -4,7 +4,8 @@
 
 html {
 
-    border-left: solid lightgray 5px;
+    border-left: solid #9a9a9a 5px;
+    background-color: #f7f7f7;
 
 }
 
@@ -40,9 +41,19 @@ nav li {
 
 header nav a {
 
+    display: inline-block;
     color: #737373;
     text-decoration: none;
     font-size: 18px;
+    padding: 15px 30px;
+  
+}
+
+.nav-background {
+
+    background-color: #ffffff;
+    border: solid #cccccc 1px;
+    box-shadow: 0 0 5px #cccccc;
 
 }
 
@@ -77,15 +88,29 @@ h2 {
 
 }
 
+time {
+
+    color: #737373;
+    font-size: 18px;
+    
+}
+
 article {
 
+    margin-top: 4rem;
     margin-bottom: 4rem;
+    background-color: #ffffff;
+    padding: 40px;
+    box-shadow: 0 0 15px #cccccc;
 
 }
 
 img {
 
-    width: 100%;
+    width: calc(100% + 80px);
+    margin-left: -40px;
+    margin-right: -40px;
+    margin-top: 20px;
 
 }
 
@@ -110,10 +135,17 @@ main {
 
 p::first-letter {
 
-    initial-letter: 3;
+    initial-letter: 4;
     padding-right: 10px;
     font-size: 72px;
     color: #737373;
+
+}
+
+p {
+
+    color: #444444;
+    line-height: 2;
 
 }
 
@@ -155,7 +187,7 @@ footer {
 
  .h-divider {
         margin: 80px auto 40px;
-        width: 80%;
+        width: 100%;
         position: relative;
     }
     .h-divider .shadow {
